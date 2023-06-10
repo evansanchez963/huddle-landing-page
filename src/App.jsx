@@ -22,7 +22,7 @@ function App() {
         <GlobalStyles />
         <Header />
         <Container>
-          {content.map((item, index) => (
+          {content.map((item) => (
             <Card key={item.id} item={item} />
           ))}
         </Container>
