@@ -12,7 +12,6 @@ export const Button = styled.button`
   color: ${({ color }) => color || "#333"};
 
   &:hover {
-    opacity: 0.9;
-    transform: scale(0.98);
+    opacity: 0.7;
   }
 `;
