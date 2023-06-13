@@ -20,6 +20,16 @@ export const StyledCard = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    flex-direction: column;
+    flex-direction: column-reverse;
+
+    img {
+      float: none;
+    }
+
+    div:nth-child(2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 `;
