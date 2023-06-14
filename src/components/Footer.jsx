@@ -1,5 +1,5 @@
 import SocialIcons from "./SocialIcons";
-import { Flex } from "./styles/HeaderContent.styled";
+import { FooterInfo } from "./styles/FooterInfo.styled";
 import { StyledFooter } from "./styles/Footer.styled";
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
         <img src="./images/logo.svg" alt=""></img>
       </div>
 
-      <Flex>
+      <FooterInfo>
         <ul>
           <li>
             <img src="./images/icon-location.svg" alt=""></img>
@@ -25,6 +25,7 @@ export default function Footer() {
             example@huddle.com
           </li>
         </ul>
+
         <ul>
           <li>About Us</li>
           <li>What We Do</li>
@@ -38,7 +39,7 @@ export default function Footer() {
         </ul>
 
         <SocialIcons />
-      </Flex>
+      </FooterInfo>
 
       <p>&copy; 2018 Huddle. All rights reserved.</p>
     </StyledFooter>

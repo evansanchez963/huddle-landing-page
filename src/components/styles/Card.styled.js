@@ -21,6 +21,7 @@ export const StyledCard = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column-reverse;
+    text-align: center;
 
     img {
       float: none;

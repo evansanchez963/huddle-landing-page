@@ -9,8 +9,7 @@ export const HeaderContent = styled.div`
     max-width: 800px;
   }
 
-  & > div,
-  & > ul {
+  & > div {
     flex: 1;
   }
 

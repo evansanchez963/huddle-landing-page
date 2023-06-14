@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
   background-color: ${({ theme }) => theme.colors.footer};
   color: #fff;
-  padding: 100px 60px;
+  padding: 100px 80px;
 
   display: flex;
   flex-direction: column;
@@ -29,6 +29,10 @@ export const StyledFooter = styled.footer`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     text-align: center;
+
+    img {
+      float: left;
+    }
 
     ul {
       padding: 0;

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const StyledSocialIcons = styled.div`
-  dispay: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
 
   a {
     border: 1px solid #fff;
@@ -12,9 +12,12 @@ export const StyledSocialIcons = styled.div`
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
     height: 40px;
     width: 40px;
     text-decoration: none;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    justify-content: center;
   }
 `;
