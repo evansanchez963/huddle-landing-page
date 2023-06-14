@@ -1,6 +1,8 @@
 import { StyledCard } from "./styles/Card.styled";
 
-export default function Card({ item: { id, title, body, image } }) {
+export default function Card({ item }) {
+  const { id, title, body, image } = item;
+
   return (
     <StyledCard
       layout={id % 2 === 0 && "row-reverse"}
