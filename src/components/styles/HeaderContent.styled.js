@@ -1,21 +1,12 @@
 import styled from "styled-components";
 
-export const Flex = styled.div`
+export const HeaderContent = styled.div`
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   div {
     max-width: 800px;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  img {
-    filter: none;
-    margin: 0;
   }
 
   & > div,

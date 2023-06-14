@@ -1,5 +1,5 @@
 import { StyledHeader, Nav, Logo, Image } from "./styles/Header.styled";
-import { Flex } from "./styles/Flex.styled";
+import { HeaderContent } from "./styles/HeaderContent.styled";
 import { Button } from "./styles/Button.styled";
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
         <Button>Try it Free</Button>
       </Nav>
 
-      <Flex>
+      <HeaderContent>
         <div>
           <h1>Build The Community Your Fans Will Love</h1>
 
@@ -26,7 +26,7 @@ export default function Header() {
         </div>
 
         <Image src="./images/illustration-mockups.svg" alt="" />
-      </Flex>
+      </HeaderContent>
     </StyledHeader>
   );
 }

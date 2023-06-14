@@ -1,5 +1,5 @@
 import SocialIcons from "./SocialIcons";
-import { Flex } from "./styles/Flex.styled";
+import { Flex } from "./styles/HeaderContent.styled";
 import { StyledFooter } from "./styles/Footer.styled";
 
 export default function Footer() {
