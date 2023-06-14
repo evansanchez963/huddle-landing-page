@@ -27,6 +27,10 @@ export const StyledCard = styled.div`
     flex-direction: column-reverse;
     text-align: center;
 
+    h2 {
+      margin-top: 50px;
+    }
+
     img {
       float: none;
     }
