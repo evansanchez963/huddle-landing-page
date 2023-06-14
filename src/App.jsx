@@ -2,7 +2,7 @@ import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
-import { CardContainer } from "./components/styles/CardContainer.styled";
+import { CardContainer } from "./components/styles/Card.styled";
 import GlobalStyles from "./components/styles/Global";
 import content from "./content";
 

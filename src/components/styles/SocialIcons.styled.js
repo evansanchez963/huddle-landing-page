@@ -17,6 +17,11 @@ export const StyledSocialIcons = styled.div`
     text-decoration: none;
   }
 
+  a:hover {
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+  }
+
   @media (max-width: ${({ theme }) => theme.mobile}) {
     justify-content: center;
   }

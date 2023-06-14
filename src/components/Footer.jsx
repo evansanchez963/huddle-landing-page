@@ -1,6 +1,5 @@
 import SocialIcons from "./SocialIcons";
-import { FooterInfo } from "./styles/FooterInfo.styled";
-import { StyledFooter } from "./styles/Footer.styled";
+import { StyledFooter, FooterInfo, InfoLine } from "./styles/Footer.styled";
 
 export default function Footer() {
   return (
@@ -11,31 +10,61 @@ export default function Footer() {
 
       <FooterInfo>
         <ul>
+          <InfoLine>
+            <li>
+              <p>
+                <span>
+                  <img src="./images/icon-location.svg" alt=""></img>
+                </span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </li>
+          </InfoLine>
+          <InfoLine>
+            <li>
+              <p>
+                <span>
+                  <img src="./images/icon-phone.svg" alt=""></img>
+                </span>
+                +1-543-123-4567
+              </p>
+            </li>
+          </InfoLine>
+          <InfoLine>
+            <li>
+              <p>
+                <span>
+                  <img src="./images/icon-email.svg" alt=""></img>
+                </span>
+                example@huddle.com
+              </p>
+            </li>
+          </InfoLine>
+        </ul>
+
+        <ul>
           <li>
-            <img src="./images/icon-location.svg" alt=""></img>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            <a href="#">About Us</a>
           </li>
           <li>
-            <img src="./images/icon-phone.svg" alt=""></img>
-            +1-543-123-4567
+            <a href="#">What We Do</a>
           </li>
           <li>
-            <img src="./images/icon-email.svg" alt=""></img>
-            example@huddle.com
+            <a href="#">FAQ</a>
           </li>
         </ul>
 
         <ul>
-          <li>About Us</li>
-          <li>What We Do</li>
-          <li>FAQ</li>
-        </ul>
-
-        <ul>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
+          <li>
+            <a href="#">Career</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
         </ul>
 
         <SocialIcons />

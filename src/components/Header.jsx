@@ -1,5 +1,10 @@
-import { StyledHeader, Nav, Logo, Image } from "./styles/Header.styled";
-import { HeaderContent } from "./styles/HeaderContent.styled";
+import {
+  StyledHeader,
+  Nav,
+  Logo,
+  HeaderContent,
+  Image,
+} from "./styles/Header.styled";
 import { Button } from "./styles/Button.styled";
 
 export default function Header() {
