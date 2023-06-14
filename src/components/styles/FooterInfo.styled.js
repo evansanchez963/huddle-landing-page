@@ -5,11 +5,6 @@ export const FooterInfo = styled.div`
   justify-content: space-between;
   gap: 40px;
 
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
   & > div,
   & > ul {
     flex: 1;

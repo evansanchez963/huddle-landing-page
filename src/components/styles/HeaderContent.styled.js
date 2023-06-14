@@ -6,7 +6,14 @@ export const HeaderContent = styled.div`
   justify-content: space-between;
 
   div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     max-width: 800px;
+  }
+
+  button {
+    align-self: flex-start;
   }
 
   & > div {
@@ -16,5 +23,9 @@ export const HeaderContent = styled.div`
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
     text-align: center;
+
+    button {
+      align-self: center;
+    }
   }
 `;
