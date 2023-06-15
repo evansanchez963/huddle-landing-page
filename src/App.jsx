@@ -1,6 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Card from "./components/Card";
+import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
 import { CardContainer } from "./components/styles/Card.styled";
 import GlobalStyles from "./components/styles/Global";
@@ -27,6 +28,7 @@ function App() {
             <Card key={item.id} item={item} />
           ))}
         </CardContainer>
+        <CallToAction />
         <Footer />
       </>
     </ThemeProvider>
